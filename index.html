@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- boxicons -->
+    <link rel="stylesheet" href="css/boxicons.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- header design -->
+    <header class="active">
+        <a href="#" class="logo">Kenneth.</a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav>
+            <a href="#" class="active">Accueil</a>
+            <!-- <a href="#">Services</a> -->
+            <a href="#">Résumé</a>
+            <a href="#">Mes projets</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- bars background -->
+     <div class="bars-box active">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+     </div>
+
+    <!-- home section -->
+    <section class="home active">
+        <div class="home-detail">
+            <h1>Kenneth Houndagba</h1>
+            <h2>Je suis <span style="--i:1;" data-text="Développeur web">Développeur web</span> 
+                <!-- <span style="--i:4;" data-text="Coder">Coder</span>
+                <span style="--i:3;" data-text="Youtuber">Youtuber</span>
+                <span style="--i:2;" data-text="Blogger">Blogger</span>
+                <span style="--i:1;" data-text="Designer">Designer</span> -->
+            </h2>
+            <p>
+                Développeur web full-stack animé par la passion du code et le souci du détail. J'aime transformer des idées en projets concrets
+                en m'appuyant sur mes compétences en HTML, CSS, JavaScript, Symfony, Vue.js et NestJS. Mon objectif : allier performance, simplicité
+                et qualité pour donner vie à vos projets.
+            </p>
+            <div class="btn-sci">
+                <a href="assets/mon_cv.pdf" download="Mon_CV.pdf" class="btn" target="_blank">Télécharger mon CV</a>
+                <div class="sci">
+                    <a href="https://www.facebook.com/kenneth.houndagba" target="_blank"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://x.com/Kenneth122004?t=Yge8tByB31ecZepkqK6nKA&s=09" target="_blank"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://www.instagram.com/hanshoundagba?igsh=YWo1a3Uxczg1MzVi" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+                    <a href="https://www.linkedin.com/in/kenneth-houndagba-003b55377?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="images/me.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- resume section -->
+    <section class="resume">
+        <div class="resume-container">
+            <div class="resume-box">
+                <h2>Pourquoi moi ?</h2>
+                <p class="desc">
+                    Je suis un développeur web passionné qui place la qualité, la performance et la créativité au coeur de chaque
+                    projet. Mon objectif : vous accompagner dans la réalisation de solutions numériques efficaces et sur mesure. 
+                </p>
+                <button class="resume-btn active">Expériences</button>
+                <button class="resume-btn">Parcours</button>
+                <button class="resume-btn">Compétences</button>
+                <button class="resume-btn">A propos de moi</button>
+            </div>
+
+            <div class="resume-box">
+                <div class="resume-detail experience active">
+                    <h2 class="heading">Mes <span>expériences</span></h2>
+                    <p class="desc">
+                        Au fil de mes expériences, j'ai eu l'opportunité de collaborer sur des projets variés allant de la 
+                        conception d'interfaces modernes à la création d'API robustes. Ces missions ont renforcé ma capacité 
+                        à travailler en équipe et à répondre aux exigences des clients.
+                    </p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2024-2025</p>
+                            <h3>Stage Professionnel</h3>
+                            <p class="company">Ministère de l'Economie et des Finances du Bénin</p>
+                            <p>J'ai effectué ce stage sur une période de trois (03) mois : du 14 octobre 2024 au 10 janvier 2025.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2024-2025</p>
+                            <h3>Stage Professionnel</h3>
+                            <p class="company">Ministère de l'Economie et des Finances du Bénin</p>
+                            <p>J'ai effectué ce stage sur une période de trois (03) mois : du 10 février 2025 au 02 mai 2025.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2023-2024</p>
+                            <h3>Stage académique</h3>
+                            <p class="company">Cour Constitutionnelle du Bénin</p>
+                            <p>J'ai effectué ce stage sur une période de trois (03) mois : du 03 juillet 2023 au 15 septembre 2023.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail education">
+                    <h2 class="heading">Mon <span>Parcours</span></h2>
+                    <p class="desc">
+                        Mon parcours académique m'a permis d'acquérir des bases solides en informatique
+                        et développement web, enrichies par des projets concrets et formations continues.
+                    </p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2023-2024</p>
+                            <h3>Licence Professionnelle</h3>
+                            <p class="company">UATM GASA FORMATION / GBEGAMEY</p>
+                            <p>J'ai effectué mes trois premières années d'universités à l'UATM GASA FORMATION où j'ai eu ma licence professionnelle.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2020 - 2021</p>
+                            <h3>Baccalauréat Scientifique</h3>
+                            <p class="company">Complexe Scolaire Les Premiers </p>
+                            <p>J'ai eu mon diplôme du Baccalauréat série D au collège CS Les Premiers à Tankpè.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="resume-detail skills">
+                    <h2 class="heading">Mes <span>Compétences</span></h2>
+                    <p class="desc">
+                        Je maîtrise les langages et frameworks essentiels du développement web : HTML, CSS, JavaScript, PHP avec 
+                        Symfony, Vue.js et NestJS et MySQl en base de données. Je veille à produire un code propre et optimisé, avec une attention particulière
+                        portée à l'expérience utilisateur.
+                    </p>
+                    <div class="resume-list-competences">
+                        <div class="resume-item-competences">
+                            <i class="bx bxl-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="resume-item-competences">
+                            <i class="bx bxl-css3"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="resume-item-competences">
+                            <i class="bx bxl-javascript"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="resume-item-competences">
+                            <i class="bx bxl-vuejs"></i>
+                            <span>Vue.js</span>
+                        </div>
+                        <div class="resume-item-competences">
+                            <i class='bx bxl-bootstrap'></i>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="resume-item-competences">
+                            <i class='bx bxl-typescript'></i>
+                            <span>TypeScript</span>
+                        </div>
+                        <!-- <div class="resume-item-competences">
+                            <i class="bx bxl-mongodb"></i>
+                            <span>MongoDB</span>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="resume-detail about">
+                    <h2 class="heading">A propos de <span>Moi</span></h2>
+                    <p class="desc">
+                        Développeur web polyvalent, je conçois et développe des sites et applications modernes. Curieux et 
+                        rigoureux, je suis toujours à la recherche de nouvelles opportunités d'apprendre et de relever des
+                        défis techniques.
+                    </p>
+                    <div class="resume-list-about">
+                        <div class="resume-item-about">
+                            <i class="bx bx-user"></i>
+                            <p>Nom & Prenom: <span>Kenneth HOUNDAGBA</span></p>
+                        </div>
+                        <div class="resume-item-about">
+                            <i class="bx bx-male"></i>
+                            <p>Genre: <span>Masculin</span></p>
+                        </div>
+                        <div class="resume-item-about">
+                            <i class="bx bx-calendar"></i>
+                            <p>Age: <span>20 ans</span></p>
+                        </div>
+                        <div class="resume-item-about">
+                            <i class="bx bx-heart"></i>
+                            <p>Statut: <span>Célibataire</span></p>
+                        </div>
+                        <div class="resume-item-about">
+                            <i class="bx bx-map"></i>
+                            <p>Ville: <span>Cotonou</span></p>
+                        </div>
+                        <div class="resume-item-about">
+                            <i class="bx bx-flag"></i>
+                            <p>Nationalité: <span>Béninoise</span></p>
+                        </div>
+                        <!-- <div class="resume-item-about">
+                            <p>Experience <span>3+ Years</span></p>
+                        </div> -->
+                        <!-- <div class="resume-item-about">
+                            <p>Full Time <span>Available</span></p>
+                        </div> -->
+                        <!-- <div class="resume-item-about">
+                            <p>Freelance <span>Available</span></p>
+                        </div> -->
+                        <div class="resume-item-about">
+                            <i class="bx bx-phone"></i>
+                            <p>Téléphone: <span>+229 97 86 17 87</span></p>
+                        </div>
+                        <div class="resume-item-about">
+                            <i class="bx bx-envelope"></i>
+                            <p>Email: <span>houndagbak@gmail.com</span></p>
+                        </div>
+                        <div class="resume-item-about">
+                            <i class="bx bx-chat"></i>
+                            <p>Languages: <span>Français, Fon</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section -->
+    <section class="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <div class="portfolio-detail active">
+                    <p class="numb">01</p>
+                    <h3>eConge</h3>
+                    <p>Plateforme de gestion de demande de congé dans une structure administrative. 
+                    </p>
+                    <div class="tech">
+                        <p>HTML5, CSS3, JavaScript, Vue.js, Nest.js</p>
+                    </div>
+                    <!-- <div class="live-github">
+                        <a href=""><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                        <a href=""><i class="bx bxl-github"></i><span>Github Repository</span></a>
+                    </div> -->
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">02</p>
+                    <h3>AMS School</h3>
+                    <p>Application web de gestion des salles et des emplois du temps : cas de 
+                        l'UATM Gasa Formation.
+                    </p>
+                    <div class="tech">
+                        <p>PHP, Symfony, MySQL</p>
+                    </div>
+                    <!-- <div class="live-github">
+                        <a href=""><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                        <a href=""><i class="bx bxl-github"></i><span>Github Repository</span></a>
+                    </div> -->
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">03</p>
+                    <h3>Portfolio</h3>
+                    <p>Site personnel 100% HTML / CSS / JavaScript animé, hébergé sur Netlify. 
+                    </p>
+                    <div class="tech">
+                        <p>HTML5, CSS3, JavaScript</p>
+                    </div>
+                    <!-- <div class="live-github">
+                        <a href=""><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                        <a href=""><i class="bx bxl-github"></i><span>Github Repository</span></a>
+                    </div> -->
+                </div>
+
+                <!-- <div class="portfolio-detail">
+                    <p class="numb">04</p>
+                    <h3>Full Stack Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Sint, incidunt.
+                    </p>
+                    <div class="tech">
+                        <p>MySQl, Node.js, Express.js</p>
+                    </div>
+                    <div class="live-github">
+                        <a href=""><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                        <a href=""><i class="bx bxl-github"></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">05</p>
+                    <h3>Frontend Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Sint, incidunt.
+                    </p>
+                    <div class="tech">
+                        <p>Vue.js, Tailwind CSS</p>
+                    </div>
+                    <div class="live-github">
+                        <a href=""><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                        <a href=""><i class="bx bxl-github"></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">06</p>
+                    <h3>Full Stack Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Sint, incidunt.
+                    </p>
+                    <div class="tech">
+                        <p>MySQL, PHP, Symfony</p>
+                    </div>
+                    <div class="live-github">
+                        <a href=""><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                        <a href=""><i class="bx bxl-github"></i><span>Github Repository</span></a>
+                    </div>
+                </div> -->
+            </div>
+
+            <div class="portfolio-box">
+                <div class="portfolio-carousel">
+                    <div class="img-slide">
+                        <div class="img-item">
+                            <img src="images/projet2.png" alt="Projet 2">
+                            <div class="overlay">
+                                <button class="view-btn" aria-label="Voir l'image en grand">
+                                <i class="bx bx-zoom-in" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="img-item">
+                            <img src="images/projet3.png" alt="Projet 3">
+                            <div class="overlay">
+                                <button class="view-btn" aria-label="Voir l'image en grand">
+                                <i class="bx bx-zoom-in" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="img-item">
+                            <img src="images/projet4.png" alt="Portfolio 3">
+                            <div class="overlay">
+                                <button class="view-btn" aria-label="Voir l'image en grand">
+                                <i class="bx bx-zoom-in" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- <div class="img-item">
+                            <img src="images/portfolio4.jpg" alt="Portfolio 4">
+                            <div class="overlay">
+                                <button class="view-btn" aria-label="Voir l'image en grand">
+                                <i class="bx bx-zoom-in" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div> -->
+
+                        <!-- <div class="img-item">
+                            <img src="images/portfolio5.jpg" alt="Portfolio 5">
+                            <div class="overlay">
+                                <button class="view-btn" aria-label="Voir l'image en grand">
+                                <i class="bx bx-zoom-in" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div> -->
+
+                        <!-- <div class="img-item">
+                            <img src="images/portfolio6.jpg" alt="Portfolio 6">
+                            <div class="overlay">
+                                <button class="view-btn" aria-label="Voir l'image en grand">
+                                <i class="bx bx-zoom-in" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+
+
+                <div class="navigation">
+                    <button class="arrow-left disabled"><i class='bx bx-chevron-left'></i></button>
+                    <button class="arrow-right"><i class='bx bx-chevron-right'></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact">
+        <div class="contact-container">
+            <div class="contact-box">
+                <h2>Contact Professionnel</h2>
+                <p class="desc">
+                    Vous avez une idée, un projet ou une question ? N'hésitez pas à me contacter. Je suis disponible
+                    pour échanger et construire ensemble des solutions modernes et efficaces. 
+                </p>
+                <div class="contact-detail">
+                    <i class="bx bxs-phone"></i>
+                    <div class="detail">
+                        <p>Téléphone</p>
+                        <p>(+229) 01 97 86 17 87</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class="bx bxs-envelope"></i>
+                    <div class="detail">
+                        <p>Email</p>
+                        <p>houndagbak@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class="bx bxs-map"></i>
+                    <div class="detail">
+                        <p>Adresse</p>
+                        <p>Abomey-Calavi, Tankpè, Bénin</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-box">
+                <form action="">
+                    <h2 class="heading">Contactez <span>Moi!</span></h2>
+                    <div class="field-box">
+                        <input type="text" placeholder="Nom Complet" required>
+                        <input type="text" placeholder="Adresse Email" required>
+                        <input type="text" placeholder="Numéro de téléphone" required>
+                        <input type="text" placeholder="Sujet du courriel" required>
+                        <textarea name="" id="" placeholder="Votre message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Envoyer Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>  
+</body>
+</html>
