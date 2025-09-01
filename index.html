@@ -434,14 +434,15 @@
             </div>
 
             <div class="contact-box">
-                <form action="">
+                <form name="contact" method="POST" data-netlify="true">
                     <h2 class="heading">Contactez <span>Moi!</span></h2>
                     <div class="field-box">
-                        <input type="text" placeholder="Nom Complet" required>
-                        <input type="text" placeholder="Adresse Email" required>
-                        <input type="text" placeholder="Numéro de téléphone" required>
-                        <input type="text" placeholder="Sujet du courriel" required>
-                        <textarea name="" id="" placeholder="Votre message" required></textarea>
+                        <input type="text" name="name" placeholder="Nom Complet" required>
+                        <input type="email" name="email" placeholder="Adresse Email" required>
+                        <input type="text" name="phone" placeholder="Numéro de téléphone" required>
+                        <input type="text" name="subject" placeholder="Sujet du courriel" required>
+                        <textarea name="message" placeholder="Votre message" required></textarea>
+                        <input type="hidden" name="form-name" value="contact">
                     </div>
                     <button type="submit" class="btn">Envoyer Message</button>
                 </form>
